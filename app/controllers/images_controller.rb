@@ -1,7 +1,7 @@
 class ImagesController < ApplicationController
   before_action :set_image, only: [:show, :update, :destroy]
 
-  # GET /users
+  # GET 
   def index
     @images = Images.all
 
